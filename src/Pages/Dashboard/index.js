@@ -45,8 +45,8 @@ function Dashboard() {
             {
                 token !== "" ? <Redirect to="/create-playlist"/> : <p>PLAYLIST SPOTIFY</p> 
             }
-            <h1>LOGIN TO SPOTIFY</h1>
-            <button onClick={handleLogin}>Login To Spotify</button>
+            <h1>LOGIN KE SPOTIFY</h1>
+            <button onClick={handleLogin}>Login Ke Spotify</button>
         </div>
     );
 }

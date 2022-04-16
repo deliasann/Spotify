@@ -1,4 +1,5 @@
 import '../../CSS/App.css';
+import "../../CSS/CreatePlaylist.css";
 import Music from '../../Components/Music';
 import SearchBar from '../../Components/Search';
 import React, { useState } from 'react';
@@ -67,13 +68,13 @@ function CreatePlaylist() {
   return (
     <div className="App">
       {
-          token === "" ? <Redirect to="/"/> : <p>Login Successfully</p> 
+          token === "" ? <Redirect to="/"/> : <p>Berhasil Login</p> 
       }
-      <h1>Create Your Playlist</h1>
+      <h1>Buat Playlist Kamu</h1>
 
       <PlaylistForm selectedMusic={selectedMusic} />
 
-      <h3>Find and Select Music Tracks</h3>
+      <h3>Cari dan Pilih Track Musik</h3>
 
       <SearchBar handleInput={handleInput} handleSearch={handleSearch}/>
 
