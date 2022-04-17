@@ -127,7 +127,6 @@ function PlaylistForm ({selectedMusic}) {
 				<input id='input-name' className='input text' onChange={handleFormPlaylist} type="text" name="name" required/>
 				<label htmlFor="input-desc">Playlist Description</label>
 				<textarea id='input-desc' className='input textarea' onChange={handleFormPlaylist} type="textarea" name="description" minLength={10} required/>
-				{/* <input className='input submit' type="submit" value="Save Playlist" /> */}
 				<Button size="medium" htmlType="submit">Submit</Button>
 			</form>
 		</>
