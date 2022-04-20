@@ -123,9 +123,9 @@ function PlaylistForm ({selectedMusic}) {
 	return (
 		<>
 			<form className='playlist-form' action="" onSubmit={handleCreatePlaylist}>
-				<label htmlFor="input-name">Playlist Name</label>
+				<label htmlFor="input-name">Name</label>
 				<input id='input-name' className='input text' onChange={handleFormPlaylist} type="text" name="name" required/>
-				<label htmlFor="input-desc">Playlist Description</label>
+				<label htmlFor="input-desc">Description</label>
 				<textarea id='input-desc' className='input textarea' onChange={handleFormPlaylist} type="textarea" name="description" minLength={10} required/>
 				<Button size="medium" htmlType="submit">Submit</Button>
 			</form>

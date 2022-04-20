@@ -1,14 +1,6 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import "../../CSS/Music.css";
 import { Item } from "../../Interface/ISpotifyResponse";
-
-// Music.propTypes = {
-// 	data: PropTypes.any,
-// 	select: PropTypes.func,
-// 	deselect: PropTypes.func,
-// 	isSelected: PropTypes.any,
-// };
 
 function Music({data, select, deselect, isSelected} : {
 	data: Item,

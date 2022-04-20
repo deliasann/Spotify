@@ -30,12 +30,12 @@ function CreatePlaylist() {
   return (
     <div className="App">
         {
-            token === "" ? <Redirect to="/"/> : <p>Berhasil Login</p> 
+            token === "" ? <Redirect to="/"/> : <p>Login Successful</p> 
         }
-    <h1>Buat Playlist Kamu</h1>
+    <h1>Create Your Playlist</h1>
     <PlaylistForm selectedMusic={selectedMusic} />
 
-    <h3>Cari dan Pilih Track Musik</h3>
+    <h3>Search and Select Music Tracks</h3>
 
     <SearchBar />
 
